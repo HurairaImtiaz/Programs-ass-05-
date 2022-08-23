@@ -1,9 +1,10 @@
-var number : number= 24;
-if (number%2==0)
+var year: number= 2004;
+if (year%4==0)
 {
-    console.log("The given number is Even ");
-
+    console.log("given year is a Leap year");
+    console.log("Let's find out once again ....!");
 }
 else{
-    console.log("The given number is Odd");
+    console.log("given year is not a Leap year");
+    console.log("TRY AGAIN...!");
 }
