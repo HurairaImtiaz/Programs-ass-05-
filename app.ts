@@ -1,16 +1,16 @@
-var num1:number= 0 ;
-
-if (num1>0)
+var num1:number= 15;
+if (num1 % 5 == 0)
 {
-    console.log("the  number is positive")
+    console.log("The number is divisible by 5")
 }
-else if (num1<0  )
+else if (num1 % 11 == 0)
 {
-    console.log("the  number is negative") 
+    console.log("The number is divisible by 11")
 }
 else
 {
-    console.log("the number is zero")
+    console.log("The number is niether divisible by 5 nor 11")
+    {
+        console.log("Enter a New Number")
+    }
 }
-
-console.log("CONGRATULATIONS")
