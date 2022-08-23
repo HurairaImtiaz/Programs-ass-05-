@@ -1,16 +1,9 @@
-var num1:number= 15;
-if (num1 % 5 == 0)
+var number : number= 24;
+if (number%2==0)
 {
-    console.log("The number is divisible by 5")
+    console.log("The given number is Even ");
+
 }
-else if (num1 % 11 == 0)
-{
-    console.log("The number is divisible by 11")
-}
-else
-{
-    console.log("The number is niether divisible by 5 nor 11")
-    {
-        console.log("Enter a New Number")
-    }
+else{
+    console.log("The given number is Odd");
 }
